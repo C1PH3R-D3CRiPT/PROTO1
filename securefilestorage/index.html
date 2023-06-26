@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Secure File Storage</title>
+  </head>
+  <header>WELCOME TO SECURED STORAGE</header>
+  <body>
+    <ul class="headerdivision">
+      <li class="tab-active"><a href="#login">Login</a></li>
+      <li class="tab"><a href="#signup">SignUp</a></li>
+    </ul>
+
+    <div id="login">
+      <h1>Hello Again!!</h1>
+      
+      <form action="/" method="post">
+        
+        <div class="fieldwrap">
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            autocomplete="off"
+          /><br /><br />
+        </div>
+        
+        <div class="fieldwrap">
+          <lable for="password">password : </lable>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            autocomplete="off"
+          /><br /><br />
+        </div>
+        
+        <p class="Forgotpass"><a href="#">Forgot Password</a></p>
+        
+        <button class="loginbutton">Log In</button></form>
+      
+      </form>
+    </div>
+
+    <h1 id="signup">Welcome!!please Sign Up</h1>
+    <form action="/" method="post">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        autocomplete="off"
+        required
+      /><br /><br />
+      <lable for="password">password</lable>
+      <input type="password" id="password" name="password" /><br /><br />
+      <lable for="confirm_password">confirm_password</lable>
+      <input
+        type="password"
+        id="confirm_password"
+        name="confirm_password"
+      /><br /><br />
+      <input type="submit" value="Signup" />
+    </form>
+  </body>
+</html>
