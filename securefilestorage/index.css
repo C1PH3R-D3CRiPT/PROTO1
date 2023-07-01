@@ -6,7 +6,7 @@ html {
 
 * {
   font-family: 'Source Code Pro', monospace;
-  background-color: #a5a5a5;
+  background-color: grey;
 }
 
 a {
@@ -30,8 +30,13 @@ form {
 
 .headerdivision {
   list-style-type: none;
-  padding: 0px;
-  margin: 0 0 40px 0;
+  padding-left: 600px;
+  margin: 0 0 0 0;
+  float: center;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 0.5;
+  box-shadow: 0 4px 10px 4px;
 }
 
 .headerdivision:after {
@@ -56,4 +61,12 @@ li a {
 li a:hover{
   background-color: yellow;
   color:magenta
+}
+.fieldwrap{
+  color: black;
+}
+header{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 36px;
 }
